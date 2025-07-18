@@ -4,7 +4,7 @@ export const formatDate = (dateString: string) => {
       day: '2-digit',
       month: 'short',
       year: 'numeric',
-    }).replace(/ /g, ' '); // ensure single spaces, e.g., '18 Jul 2025'
+    }).replace(/ /g, ' ');
   };
   
   export const formatCurrencyGBP = (amount: number | string) => {
