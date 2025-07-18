@@ -31,3 +31,8 @@
 .button:disabled {
   opacity: 0.5;
 }
+
+.loadButton {
+  display: block;
+  width: 230px;
+}
