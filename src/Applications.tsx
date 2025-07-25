@@ -10,7 +10,7 @@ const Applications = () => {
   
   const fetchApplications = async () => {
     try{
-    const res = await fetch(`/api/applications?_page=1&_limit=5`);
+    const res = await fetch(`/api/applications?_page=${nextPage}&_limit=5`);
 
     if (!res.ok) {
       throw new Error(`Failed to fetch: ${res.status} ${res.statusText}`);
